@@ -20,7 +20,9 @@ const Project: FC<ProjectProps> = ({ project }: ProjectProps) => {
         id === 'project4' ? state.projects.project4 : 
         id === 'project5' ? state.projects.project5 :
         id === 'project6' ? state.projects.project6 :
-        state.projects.project7 
+        id === 'project7' ? state.projects.project7 :
+        id === 'project8' ? state.projects.project8 :
+        state.projects.project9
     )   
     
     const handleClick: MouseEventHandler = ( e ) => {

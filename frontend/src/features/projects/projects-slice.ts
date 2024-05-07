@@ -7,7 +7,9 @@ interface ProjectsState {
     project4: boolean,
     project5: boolean,
     project6: boolean,
-    project7: boolean 
+    project7: boolean,
+    project8: boolean,
+    project9: boolean
 }
 
 const initialState: ProjectsState = {
@@ -17,7 +19,9 @@ const initialState: ProjectsState = {
     project4: false,
     project5: false,
     project6: false,
-    project7: false 
+    project7: false,
+    project8: false,
+    project9: false
 } 
 
 const projectsSlice = createSlice( {
@@ -31,7 +35,9 @@ const projectsSlice = createSlice( {
             state.project4 = false
             state.project5 = false
             state.project6 = false
-            state.project7 = false             
+            state.project7 = false
+            state.project8 = false
+            state.project9 = false      
         },
 
         toggleProject( state, action: PayloadAction<string> ) {
@@ -68,6 +74,16 @@ const projectsSlice = createSlice( {
 
                 case 'project7': {
                     state.project7 = !(state.project7)
+                    break
+                }
+
+                case 'project8': {
+                    state.project8 = !(state.project8)
+                    break
+                }
+
+                case 'project9': {
+                    state.project9 = !(state.project9)
                     break
                 }
             }
