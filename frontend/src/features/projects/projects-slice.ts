@@ -39,7 +39,7 @@ const projectsSlice = createSlice( {
             state.project6 = false
             state.project7 = false
             state.project8 = false
-            state.project9 = false,
+            state.project9 = false
             state.project10 = false  
         },
 
