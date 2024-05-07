@@ -20,12 +20,12 @@ export type SkillInfo = {
 const SkillsGrid: FC = () => {
     const skills = [
         {
-            id: "ReactJS",
-            title: "ReactJS",
+            id: "C/x86 Assembly",
+            title: "C/x86 Assembly",
             description: 
-                "I have developed several frontends with React, along with styled-components for styling, and Redux for complex state management. I also have experience hosting full-stack React+NodeJS applications on Fly.io, GitHub Pages, and many other platforms, along with devloping streamlined CI/CD pipelines. This website is one such project.",
-            logo: ReactSVG,
-            alt: "ReactJS Logo by Icons8"
+                "I have 3+ years of experience in using C and x86 Assembly for kernel development and coursework. I am also proficient in developing linker scripts (for ld) to create executable files for custom architectures. Notable projects include InuOS, an operating system for the x86 architecture, InuLoader, a PC-AT style minimal bootloader, and a traffic flow simulation program",
+            logo: CPlusPlusSVG,
+            alt: "C Plus Plus Logo by Icons8"
         },
 
         {
@@ -38,19 +38,19 @@ const SkillsGrid: FC = () => {
         },
 
         {
-            id: "C/C++",
-            title: "C/C++",
+            id: "ReactJS",
+            title: "ReactJS",
             description: 
-                "I have used C/C++ for more than 2 years for personal projects and coursework. I am proficient in dynamic memory allocation (malloc, alloc, realloc), implementing data structures and algorithms (stacks, queues, graphs, trees, Hamming Code, etc.), file I/O, and many other tasks in the C language. One of my most noteworthy C projects is a traffic simulation program.",
-            logo: CPlusPlusSVG,
-            alt: "C Plus Plus Logo by Icons8"
+                "I have developed several frontends with React, along with styled-components for styling, and Redux for complex state management. I also have experience hosting full-stack React+NodeJS applications on Fly.io, GitHub Pages, and many other platforms, along with devloping streamlined CI/CD pipelines. This website is one such project.",
+            logo: ReactSVG,
+            alt: "ReactJS Logo by Icons8"
         },
 
         {
             id: "HTML, CSS & Javascript",
             title: "HTML, CSS & Javascript",
             description:
-                "Over the past 2 years, I have developed various websites using HTML, CSS and JavaScript, including a tic-tac-toe website. I am also familiar with technologies such as Bootstrap and Tailwind CSS. I am comfortable with DOM manipulation, setting various types of event listeners, and querying elements by id, class, or tag type in JavaScript.",
+                "Over the past 3 years, I have developed various websites using HTML, CSS and JavaScript, including a tic-tac-toe website. I am also familiar with technologies such as Bootstrap and Tailwind CSS. I am comfortable with DOM manipulation, setting various types of event listeners, and querying elements by id, class, or tag type in JavaScript.",
             logo: JsSVG,
             alt: "Javascript Logo by Icons8"
         },
