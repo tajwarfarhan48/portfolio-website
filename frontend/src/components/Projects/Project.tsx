@@ -14,15 +14,16 @@ const Project: FC<ProjectProps> = ({ project }: ProjectProps) => {
     const id = project.id
 
     const modalVisible = useAppSelector( state => 
-        id === 'project1' ? state.projects.project1 :
-        id === 'project2' ? state.projects.project2 : 
-        id === 'project3' ? state.projects.project3 :
-        id === 'project4' ? state.projects.project4 : 
-        id === 'project5' ? state.projects.project5 :
-        id === 'project6' ? state.projects.project6 :
-        id === 'project7' ? state.projects.project7 :
-        id === 'project8' ? state.projects.project8 :
-        state.projects.project9
+        id === 'project1'  ? state.projects.project1  :
+        id === 'project2'  ? state.projects.project2  : 
+        id === 'project3'  ? state.projects.project3  :
+        id === 'project4'  ? state.projects.project4  : 
+        id === 'project5'  ? state.projects.project5  :
+        id === 'project6'  ? state.projects.project6  :
+        id === 'project7'  ? state.projects.project7  :
+        id === 'project8'  ? state.projects.project8  :
+        id === 'project9'  ? state.projects.project9  :
+        state.projects.project10
     )   
     
     const handleClick: MouseEventHandler = ( e ) => {
