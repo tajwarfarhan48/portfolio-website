@@ -1,4 +1,4 @@
-Source code for my portfolio website ([farhantajwar.com](farhantajwar.com)).
+Source code for my portfolio website ([farhantajwar.com](https://farhantajwar.com)).
 
 Technologies used:
 - React (with TypeScript)
